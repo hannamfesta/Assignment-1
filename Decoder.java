@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Decoder {
+public class HuffmanDecoder {
 	
 	private InputStreamBitSource _bitStream;
 	private List<Symbol> _symbolList; //lengths of codes
